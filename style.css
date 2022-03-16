@@ -4,77 +4,71 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
-body{
-	background-color:#ECECEC;
+body {
+	background-color: #ececec;
 }
-ul{
+ul {
 	list-style: none;
 }
 
-.text-sizeing{
-	font-size:15px;
+.text-sizeing {
+	font-size: 15px;
 }
 
-.btn-font-size{
-	font-size:12px;
+.btn-font-size {
+	font-size: 12px;
 }
 
-.custom-nav{
+.custom-nav {
 	margin-top: -8px;
 }
 
-.mobile-logo-up{
-    height:60px;
-    display: none;
+.mobile-logo-up {
+	height: 60px;
+	display: none;
 }
-.mobile-logo-down{
-    height:60px;
-    display: inline;
+.mobile-logo-down {
+	height: 60px;
+	display: inline;
 }
-.nav-second{
-    background-color:#fff;
-    align-items: flex-start !important;
-
+.nav-second {
+	background-color: #fff;
+	align-items: flex-start !important;
 }
-.nav-btn{
-	display:none;
+.nav-btn {
+	display: none;
 }
-
-
 
 @media only screen and (min-width: 991px) {
-.left-border{
-	border-left: 1px solid #000;
-}
+	.left-border {
+		border-left: 1px solid #000;
+	}
 }
 
 @media only screen and (max-width: 992px) {
-  .mobile-logo-up{
-    display: block;
+	.mobile-logo-up {
+		display: block;
+	}
+	.mobile-color {
+		color: #198754 !important;
+	}
+	.mobile-logo-down {
+		height: 60px;
+		display: none;
+	}
+	.bus {
+		display: none;
+	}
+	.launch {
+		display: none;
+	}
+	.nav-up-part {
+		background-color: #fff !important;
+	}
+	.nav-btn {
+		display: block;
+	}
 }
-.mobile-color{
-	color:#198754 !important;
-}
-.mobile-logo-down{
-    height:60px;
-    display: none;
-}
-.bus{
-	 display: none;
-}
-.launch{
-	display: none;
-}
-.nav-up-part{
-    background-color:#fff !important;
-}
-.nav-btn{
-	display:block;
-}
-}
-
-
-
 
 .image-section {
 	padding-top: 50px;
@@ -115,7 +109,6 @@ ul{
 	display: block;
 }
 
-
 .plus-icon {
 	border-radius: 50%;
 	background-color: #fff;
@@ -153,63 +146,64 @@ a {
 	transform-origin: left;
 }
 
-
-
 .card-style {
 	z-index: 1;
 }
 
-
-
-
 .dropdown-check-list {
-  display: inline-block;
+	display: inline-block;
 }
 
 .dropdown-check-list .anchor {
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-  padding: 5px 50px 5px 10px;
-  border: 1px solid #ccc;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 50px 5px 10px;
+	border: 1px solid #ccc;
 }
 
 .dropdown-check-list .anchor:after {
-  position: absolute;
-  content: "";
-  border-left: 2px solid black;
-  border-top: 2px solid black;
-  padding: 5px;
-  right: 10px;
-  top: 20%;
-  -moz-transform: rotate(-135deg);
-  -ms-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+	position: absolute;
+	content: "";
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	padding: 5px;
+	right: 10px;
+	top: 20%;
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
 }
 
 .dropdown-check-list .anchor:active:after {
-  right: 8px;
-  top: 21%;
+	right: 8px;
+	top: 21%;
 }
 
 .dropdown-check-list ul.items {
-  padding: 2px;
-  display: none;
-  margin: 0;
-  border: 1px solid #ccc;
-  border-top: none;
+	padding: 2px;
+	display: none;
+	margin: 0;
+	border: 1px solid #ccc;
+	border-top: none;
 }
 
 .dropdown-check-list ul.items li {
-  list-style: none;
+	list-style: none;
 }
 
 .dropdown-check-list.visible .anchor {
-  color: #0094ff;
+	color: #0094ff;
 }
 
 .dropdown-check-list.visible .items {
-  display: block;
+	display: block;
+}
+.hover-chair:hover {
+	color: rgb(147, 207, 25) !important;
+}
+.hidden {
+	visibility: hidden;
 }
