@@ -11,6 +11,14 @@ ul{
 	list-style: none;
 }
 
+.text-sizeing{
+	font-size:15px;
+}
+
+.btn-font-size{
+	font-size:12px;
+}
+
 .custom-nav{
 	margin-top: -8px;
 }
